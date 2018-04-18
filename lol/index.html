@@ -7,16 +7,17 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <div class="header-top">
+        <header class="header">
+            <div class="header-top conteiner">
                     <i class="fas fa-bars header-top__menu"></i>
                 <a href="#" class="logo">
-                    <span class=" brend-txt">облачко</span>
+                    <span class=" logo-txt">облачко</span>
                 </a>
                 <i class="fas fa-search header-top__search"></i>
             </div>
@@ -34,8 +35,90 @@
                 </form>
             </div>
         </header>
-        <div class="main"></div>
-        <footer></footer>
+        <div class="main">
+            <h2 class="title main__title">Самые популярные товары</h2>
+            <div class="popular-goods">
+                <h3 class="brend-txt">GALA</h3>
+                    <figure class="figure">
+                            <img src="img/gala-package.jpg" alt="powder" class="photo popular-goods__photo">
+                        <figcaption>
+                            <p class="txt">Стиральный порошок Gala Автомат 3 в 1 Свежесть ландышей 400 г</p>
+                            <p class="popular-goods-cost-txt">74грн. /<span class="popular-goods-cost-txt__red"> скидка 30%</span></p>
+                        </figcaption>
+                    </figure>
+                
+            </div>
+            <div class="popular-goods">
+                <h3 class="brend-txt">LOSK</h3>
+                    <figure class="figure">
+                        <img src="img/losk-box.jpg" alt="powder" class="photo popular-goods__photo">
+                        <figcaption>
+                            <p class="txt">Стиральный порошок Losk Интенсив автомат лимонная свежесть 3000г</p>
+                            <p class="popular-goods-cost-txt">44грн. / <span class="popular-goods-cost-txt__red">скидка 65%</span></p>
+                        </figcaption>
+                    </figure>
+                
+            </div>
+            <div class="popular-goods">
+                <h3 class="brend-txt">Ушастый нянь</h3>
+                    <figure class="figure">
+                        <img src="img/nana-package.jpg" alt="powder" class="photo popular-goods__photo">
+                        <figcaption>
+                            <p class="txt">Стиральный порошок Ушастый нянь 9 кг</p>
+                            <p class="popular-goods-cost-txt">81грн. /<span class="popular-goods-cost-txt__red"> скидка 40%</span></p>
+                        </figcaption>
+                    </figure>
+                
+            </div>
+            <div class="popular-goods">
+                <h3 class="brend-txt">Persil</h3>
+                    <figure class="figure">
+                        <img src="img/persil-box.jpg" alt="powder" class="photo popular-goods__photo">
+                        <figcaption>
+                            <p class="txt">Пральний порошок Persil автомат 450 гр</p>
+                            <p class="popular-goods-cost-txt">69грн. /<span class="popular-goods-cost-txt__red"> скидка 60%</span></p>
+                        </figcaption>
+                    </figure>
+                
+            </div>
+            <div class="popular-goods">
+                <h3 class="brend-txt">Tide</h3>
+                    <figure class="figure">
+                        <img src="img/tide-package.jpg" alt="powder" class="photo popular-goods__photo">
+                        <figcaption>
+                            <p class="txt">Стиральный порошок Tide Альпийская свежесть, автомат 3кг</p>
+                            <p class="popular-goods-cost-txt">135грн. /<span class="popular-goods-cost-txt__red"> скидка 20%</span></p>
+                        </figcaption>
+                    </figure>
+                
+            </div>
+        </div>
+        <footer class="footer conteiner">
+                <li class="footer__li">
+                    <article class="article">
+                        <i class="fas fa-info-circle article__icon"></i>
+                        <h4 class="title">Информация</h4>
+                        <li> <a href="#" class="txt a--footer">Оплата и доставка</a></li>
+                        <li><a href="#" class="txt a--footer">О нас</a></li>
+                     </article>
+                </li>
+                <li class="footer__li">
+                        <article class="article">
+                                <i class="fas fa-comments article__icon"></i>
+                                <h4 class="title">Служба поддержки</h4>
+                                <li><a href="#" class="txt a--footer">Связатся с нами</a></li>
+                                <li><a href="#" class="txt a--footer">Наше нахождение</a></li>
+                             </article>
+                </li>
+                <li class="footer__li">
+                    <article class="article">
+                        <i class="fas fa-star article__icon"></i>
+                        <h4 class="title">Дополнительно</h4>
+                                <li><a href="#" class="txt a--footer">Производители</a></li>
+                                <li><a href="#" class="txt a--footer"></a></li>
+                    </article>
+                </li> 
+        </footer>
     </div>
 </body>
 </html>
