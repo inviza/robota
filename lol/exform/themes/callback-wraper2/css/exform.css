@@ -1,0 +1,90 @@
+@import url("../../../css/mform.css");
+
+.exform_wrapper.callback-wraper2 {max-width: 100%;font: 20px RbC-Reg;margin: 0 auto;color:#000;background: transparent;border:none;padding: 0;-webkit-border-radius:0;border-radius:0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+.exform_wrapper.callback-wraper2 .exform_header {text-align:center;padding: 0 0 10px;font-weight: bold;font-size: 20px;font-family: FuturaPTHeavy;color: #293445;text-transform:uppercase;}
+.exform_wrapper.callback-wraper2 .exform_addmsg {text-align:center;font-size: 16px;padding: 0px 20px;font-family: FuturaPTLight;}
+
+.exform_wrapper.callback-wraper2 input[type="text"]:focus, .exform_wrapper.callback-wraper2 .exform_wrapper textarea:focus {background:#ffd;}
+.exform_wrapper.callback-wraper2 .inpt_wrpr .poz_rel {
+   display: inline-block;
+   /* max-width: 285px; */
+   text-align: center;
+}
+.exform_wrapper.callback-wraper2 input[type="text"], 
+.exform_wrapper.callback-wraper2 textarea {
+    font-size: 14px;
+    display: inline-block;
+    margin: 2px 14px 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 14px 77px 13px 30px;
+    border: 1px solid #b5b5b5;
+    font-family: RbC-Reg;
+    outline: 0!important;
+    -webkit-border-radius: 5px;
+    border-radius: 3px;
+    color: white;
+    background-color: transparent;
+    text-align: left;
+}
+.exform_wrapper.callback-wraper2 textarea{height:50px; resize:none; font-family: Arial;}
+
+.exform_wrapper.callback-wraper2 div.err {height:0;float:right;position: absolute;right: 20px;top: 13px;}
+
+.exform_wrapper.callback-wraper2 .mf_submit {text-align:center;/* margin-top: 30px; */}
+.exform_wrapper.callback-wraper2 .mf_submit .send_btn{font-size: 15px;-moz-transition: 0.5s all;transition: 0.5s all;outline: 0!important;margin-top: 25px;padding: 19px 80px;font-family: RbC-Bold;text-transform: uppercase;border: none;-webkit-border-radius: 5px;border-radius: 4px;-webkit-transition: 0.5s all;-o-transition: 0.5s all;transition: 0.5s all;cursor: pointer;color: white;letter-spacing: 1.3px;background: rgba(251,136,0,1);background: -moz-linear-gradient(left, rgba(251,136,0,1) 0%, rgba(252,148,0,1) 50%, rgba(253,160,0,1) 100%);background: -webkit-gradient(left top, right top, color-stop(0%, rgba(251,136,0,1)), color-stop(50%, rgba(252,148,0,1)), color-stop(100%, rgba(253,160,0,1)));background: -webkit-linear-gradient(left, rgba(251,136,0,1) 0%, rgba(252,148,0,1) 50%, rgba(253,160,0,1) 100%);background: -o-linear-gradient(left, rgba(251,136,0,1) 0%, rgba(252,148,0,1) 50%, rgba(253,160,0,1) 100%);background: -webkit-gradient(linear, left top, right top, from(rgba(251,136,0,1)), color-stop(50%, rgba(252,148,0,1)), to(rgba(253,160,0,1)));background: linear-gradient(to right, rgba(251,136,0,1) 0%, rgba(252,148,0,1) 50%, rgba(253,160,0,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb8800', endColorstr='#fda000', GradientType=1 );}
+
+.exform_wrapper.callback-wraper2 .exf_captcha input[type="text"], .exform_wrapper.callback-wraper2 .captcha_img {float:left;}
+.exform_wrapper.callback-wraper2 .exf_captcha input[type="text"] {width:130px;}
+.exform_wrapper.callback-wraper2 .captcha_img {width:160px; height:34px; margin:2px 0 0 4px;} 
+#mf_captcha.callback-wraper2 {width:160px; border:solid 1px #ccc;}
+.exform_wrapper.callback-wraper2 .exf_captcha a {display:block; width:32px; height:32px; float:right; margin:4px -10px 0 0; background:url(refresh.png);}
+
+.exform_wrapper.callback-wraper2.finmsg {width:400px; min-height:50px; padding:10px; position:absolute; left:50%; top:50%; margin:-60px 0 0 -200px;}
+.exform_wrapper.callback-wraper2.finmsg p{text-align:center;}
+.exf_captcha {display: none;}
+.close_btn {
+  width: 20px!important;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url('/exform/imgs/exit.png') no-repeat;
+  -o-background-size: 100%;
+  background-size: 100%;
+  border: none;
+  cursor: pointer;
+}
+.exform_wrapper.callback-wraper2 .mf_submit .send_btn:hover{
+  background: rgba(219,122,3,1);
+  background: -moz-linear-gradient(left, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(219,122,3,1)), color-stop(50%, rgba(220,131,2,1)), color-stop(100%, rgba(221,140,1,1)));
+  background: -webkit-linear-gradient(left, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+  background: -o-linear-gradient(left, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(219,122,3,1)), color-stop(50%, rgba(220,131,2,1)), to(rgba(221,140,1,1)));
+  background: linear-gradient(to right, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db7a03', endColorstr='#dd8c01', GradientType=1 );
+}
+.close_btn:focus { outline: none; }
+
+.lab{
+  font-size:13px;
+}
+.exform_wrapper.callback-wraper2  input.name[name="user_name"] {
+    display: none;
+}
+.poz_rel {
+  position: relative;
+}
+.exform_wrapper.callback-wraper2 .inpt_wrpr {
+    text-align: center;
+}
+
+.exform_wrapper.callback-wraper2 input[type="text"].last-item {
+    margin: 2px 0 0 0;
+}
+.exform_wrapper.callback-wraper2 .poz_rel.center-block div.err {
+    right: 50px;
+}

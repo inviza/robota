@@ -1,0 +1,197 @@
+.exform_wrapper<?=$themecurent?> {
+    max-width: 100%;
+    font: 20px RbC-Reg;
+    margin: 0 auto;
+    color: #000;
+    background: transparent;
+    border: none;
+    padding: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.exform_wrapper<?=$themecurent?> .exform_header {
+    text-align: center;
+    padding: 0 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: FuturaPTHeavy;
+    color: #293445;
+    text-transform: uppercase;
+}
+
+.exform_wrapper<?=$themecurent?> .exform_addmsg {
+text-align: center;
+font-size: 16px;
+padding: 0px 20px;
+font-family: FuturaPTLight;
+}
+
+.exform_wrapper<?=$themecurent?> input[type="text"]:focus,.exform_wrapper<?=$themecurent?> .exform_wrapper textarea:focus {
+background: #ffd;
+}
+
+.exform_wrapper<?=$themecurent?>.inpt_wrpr .poz_rel {
+display: inline-block;
+/* max-width: 285px; */
+text-align: center;
+}
+
+.exform_wrapper<?=$themecurent?>input[type="text"],.exform_wrapper<?=$themecurent?> textarea {
+font-size: 14px;
+display: inline-block;
+margin: 2px 14px 0 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding: 14px 77px 13px 30px;
+border: 1px solid #b5b5b5;
+font-family: RbC-Reg;
+outline: 0!important;
+-webkit-border-radius: 5px;
+border-radius: 3px;
+color: white;
+background-color: transparent;
+text-align: left;
+}
+
+.exform_wrapper<?=$themecurent?> textarea {
+height: 50px;
+resize: none;
+font-family: Arial;
+}
+
+.exform_wrapper<?=$themecurent?> div.err {
+height: 0;
+float: right;
+position: absolute;
+right: 20px;
+top: 13px;
+}
+
+.exform_wrapper<?=$themecurent?> .mf_submit {
+text-align: center;
+/* margin-top: 30px; */
+}
+
+.exform_wrapper<?=$themecurent?> .mf_submit .send_btn {
+    padding: 12px 30px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    background: #ea1d23;
+    width: 130px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.exform_wrapper<?=$themecurent?> .exf_captcha input[type="text"],.exform_wrapper<?=$themecurent?> .captcha_img {
+float: left;
+}
+
+.exform_wrapper<?=$themecurent?> .exf_captcha input[type="text"] {
+width: 130px;
+}
+
+.exform_wrapper<?=$themecurent?> .captcha_img {
+width: 160px;
+height: 34px;
+margin: 2px 0 0 4px;
+}
+
+.exform_wrapper<?=$themecurent?> #mf_captcha_callback-wraper {
+width: 160px;
+border: solid 1px #ccc;
+}
+
+.exform_wrapper<?=$themecurent?> .exf_captcha a {
+display: block;
+width: 32px;
+height: 32px;
+float: right;
+margin: 4px -10px 0 0;
+background: url(refresh.png);
+}
+
+.exform_wrapper<?=$themecurent?> .finmsg {
+width: 400px;
+min-height: 50px;
+padding: 10px;
+position: absolute;
+left: 50%;
+top: 50%;
+margin: -60px 0 0 -200px;
+}
+
+.exform_wrapper<?=$themecurent?> .finmsg p {
+text-align: center;
+}
+
+.exform_wrapper<?=$themecurent?> .exf_captcha {
+display: none;
+}
+
+.exform_wrapper<?=$themecurent?> .close_btn {
+width: 20px!important;
+height: 20px;
+position: absolute;
+top: 10px;
+right: 10px;
+background: url('/exform/imgs/exit.png') no-repeat;
+-o-background-size: 100%;
+-webkit-background-size: 100% 100%;
+background-size: 100%;
+border: none;
+cursor: pointer;
+}
+
+.exform_wrapper<?=$themecurent?> .mf_submit .send_btn:hover {
+background: rgba(219,122,3,1);
+background: -moz-linear-gradient(left, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(219,122,3,1)), color-stop(50%, rgba(220,131,2,1)), color-stop(100%, rgba(221,140,1,1)));
+background: -webkit-linear-gradient(left, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+background: -o-linear-gradient(left, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+background: -webkit-gradient(linear, left top, right top, from(rgba(219,122,3,1)), color-stop(50%, rgba(220,131,2,1)), to(rgba(221,140,1,1)));
+background: linear-gradient(to right, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db7a03', endColorstr='#dd8c01', GradientType=1 );
+}
+
+.exform_wrapper<?=$themecurent?> .close_btn:focus {
+outline: none;
+}
+
+.exform_wrapper<?=$themecurent?> .lab {
+font-size: 13px;
+}
+
+.exform_wrapper<?=$themecurent?> input.name[name="user_name"] {
+display: none;
+}
+
+.exform_wrapper<?=$themecurent?> .poz_rel {
+position: relative;
+}
+
+.exform_wrapper<?=$themecurent?> .inpt_wrpr {
+text-align: center;
+}
+
+.exform_wrapper<?=$themecurent?> input[type="text"].last-item {
+margin: 2px 0 0 0;
+}
+
+.exform_wrapper<?=$themecurent?> .poz_rel.center-block div.err {
+right: 50px;
+}

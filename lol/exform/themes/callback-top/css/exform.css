@@ -1,0 +1,201 @@
+@import url("../../../css/mform.css");
+ .exform_wrapper.callback-top {
+    max-width: 380px;
+    font: 20px ASP-Reg;
+    color: #000;
+    background: rgba(60,61,62,1);
+    background: -moz-linear-gradient(top, rgba(60,61,62,1) 0%, rgba(60,61,62,1) 0%, rgba(60,61,62,1) 50%, rgba(60,61,62,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(60,61,62,1)), color-stop(0%, rgba(60,61,62,1)), color-stop(50%, rgba(60,61,62,1)), color-stop(100%, rgba(60,61,62,1)));
+    background: -webkit-linear-gradient(top, rgba(60,61,62,1) 0%, rgba(60,61,62,1) 0%, rgba(60,61,62,1) 50%, rgba(60,61,62,1) 100%);
+    background: -o-linear-gradient(top, rgba(60,61,62,1) 0%, rgba(60,61,62,1) 0%, rgba(60,61,62,1) 50%, rgba(60,61,62,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(60,61,62,1)), color-stop(0%, rgba(60,61,62,1)), color-stop(50%, rgba(60,61,62,1)), to(rgba(60,61,62,1)));
+    background: linear-gradient(to bottom, rgba(60,61,62,1) 0%, rgba(60,61,62,1) 0%, rgba(60,61,62,1) 50%, rgba(60,61,62,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3d3e', endColorstr='#3c3d3e', GradientType=0 );
+    border: none;
+    /* border: 1px solid #dbdbdb; */
+    padding: 15px 30px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.exform_wrapper.callback-top .exform_header {
+    padding: 0 0 10px;
+    font-size: 26px;
+    text-align: left;
+    font-family: Rbc-Bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.exform_wrapper.callback-top .exform_addmsg {
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 15px;
+    font-family: RbC-Reg;
+    color: white;
+}
+
+.exform_wrapper.callback-top input[type="text"]:focus, .exform_wrapper.callback-top .exform_wrapper textarea:focus {
+    background: #ffd;
+}
+
+.exform_wrapper.callback-top .inpt_wrpr {
+}
+
+.exform_wrapper.callback-top input[type="text"], .exform_wrapper.callback-top textarea {
+    font-size: 15px;
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    font-family: RbC-Reg;
+    outline: 0!important;
+    border: 0px;
+    color: white;
+    background: transparent;
+    text-align: left;
+    border: 1px solid #d1d1d1;
+}
+
+.exform_wrapper.callback-top textarea {
+    height: 50px;
+    resize: none;
+    font-family: Arial;
+}
+
+.exform_wrapper.callback-top div.err {
+    height: 0;
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+.exform_wrapper.callback-top .mf_submit {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.exform_wrapper.callback-top .mf_submit .send_btn {
+    font-size: 15px;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    outline: 0!important;
+    padding: 16px 66px;
+    letter-spacing: 2.1px;
+    width: 100%;
+    -webkit-border-radius: 4px;
+    border-radius: 2px;
+    border: none;
+    font-family: RbC-Bold;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+    cursor: pointer;
+    color: white;
+    background: rgba(251,136,0,1);
+    background: -moz-linear-gradient(left, rgba(251,136,0,1) 0%, rgba(252,148,0,1) 50%, rgba(253,160,0,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(251,136,0,1)), color-stop(50%, rgba(252,148,0,1)), color-stop(100%, rgba(253,160,0,1)));
+    background: -webkit-linear-gradient(left, rgba(251,136,0,1) 0%, rgba(252,148,0,1) 50%, rgba(253,160,0,1) 100%);
+    background: -o-linear-gradient(left, rgba(251,136,0,1) 0%, rgba(252,148,0,1) 50%, rgba(253,160,0,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(251,136,0,1)), color-stop(50%, rgba(252,148,0,1)), to(rgba(253,160,0,1)));
+    background: linear-gradient(to right, rgba(251,136,0,1) 0%, rgba(252,148,0,1) 50%, rgba(253,160,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb8800', endColorstr='#fda000', GradientType=1 );
+}
+
+.exform_wrapper.callback-top .exf_captcha input[type="text"], .exform_wrapper.callback-top .captcha_img {
+    float: left;
+}
+
+.exform_wrapper.callback-top .exf_captcha input[type="text"] {
+    width: 130px;
+}
+
+.exform_wrapper.callback-top .captcha_img {
+    width: 160px;
+    height: 34px;
+    margin: 2px 0 0 4px;
+}
+
+#mf_captcha_callback-top {
+    width: 160px;
+    border: solid 1px #ccc;
+}
+
+.exform_wrapper.callback-top .exf_captcha a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin: 4px -10px 0 0;
+    background: url(refresh.png);
+}
+
+.exform_wrapper.callback-top.finmsg {
+    width: 400px;
+    min-height: 50px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -60px 0 0 -200px;
+}
+
+.exform_wrapper.callback-top.finmsg p {
+    text-align: center;
+}
+
+.exf_captcha {
+    display: none;
+}
+
+.close_btn {
+    width: 20px!important;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url('/exform/imgs/exit.png') no-repeat;
+    -o-background-size: 100%;
+    background-size: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.exform_wrapper.callback-top .mf_submit .send_btn:hover {
+   background: rgba(219,122,3,1);
+    background: -moz-linear-gradient(left, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(219,122,3,1)), color-stop(50%, rgba(220,131,2,1)), color-stop(100%, rgba(221,140,1,1)));
+    background: -webkit-linear-gradient(left, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+    background: -o-linear-gradient(left, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(219,122,3,1)), color-stop(50%, rgba(220,131,2,1)), to(rgba(221,140,1,1)));
+    background: linear-gradient(to right, rgba(219,122,3,1) 0%, rgba(220,131,2,1) 50%, rgba(221,140,1,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db7a03', endColorstr='#dd8c01', GradientType=1 );
+}
+
+.close_btn:focus {
+    outline: none;
+}
+
+.lab {
+    font-size: 13px;
+}
+
+.exform_wrapper.callback-top input.name[name="user_name"] {
+    display: none;
+}
+
+.poz_rel {
+    position: relative;
+}

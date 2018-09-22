@@ -1,0 +1,217 @@
+/**/
+.exform_wrapper<?=$themecurent?> {
+    max-width: 380px;
+    font: 20px;
+    color: #000;
+    background: #fff;
+    border: none;
+    border: 1px solid #dbdbdb;
+    padding: 15px 30px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.exform_wrapper<?=$themecurent?> .exform_header {
+    padding: 0 0 10px;
+    font-size: 30px;
+    text-align: center;
+    color: #333333;
+    text-transform: none;
+}
+
+.exform_wrapper<?=$themecurent?> .exform_addmsg {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.exform_wrapper<?=$themecurent?> input[type="text"]:focus, .exform_wrapper<?=$themecurent?> .exform_wrapper textarea:focus {
+    background: #ffd;
+}
+
+.exform_wrapper<?=$themecurent?> .inpt_wrpr {
+}
+
+.exform_wrapper<?=$themecurent?> input[type="text"], .exform_wrapper<?=$themecurent?> textarea {
+    font-size: 14px;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    border-radius: 0;
+    width: 100%;
+    margin: 10px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    outline: 0!important;
+    color: #444b54;
+    text-align: left;
+    border: 1px solid #dbdbdb;
+}
+
+.exform_wrapper<?=$themecurent?> textarea {
+    resize: vertical;
+    font-family: Arial;
+}
+
+.exform_wrapper<?=$themecurent?> div.err {
+    height: 0;
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: -webkit-calc(50% - 12px);
+    top: calc(50% - 12px);
+}
+
+.exform_wrapper<?=$themecurent?> .mf_submit {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.exform_wrapper<?=$themecurent?> .mf_submit .send_btn {
+    padding: 13px 30px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    background: #333333;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+}
+
+.exform_wrapper<?=$themecurent?> .exf_captcha input[type="text"], .exform_wrapper<?=$themecurent?> .captcha_img {
+    float: left;
+}
+
+.exform_wrapper<?=$themecurent?> .exf_captcha input[type="text"] {
+    width: 130px;
+}
+
+.exform_wrapper<?=$themecurent?> .captcha_img {
+    width: 160px;
+    height: 34px;
+    margin: 2px 0 0 4px;
+}
+
+#mf_captcha<?=$themecurent?> {
+    width: 160px;
+    border: solid 1px #ccc;
+}
+
+.exform_wrapper<?=$themecurent?> .exf_captcha a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin: 4px -10px 0 0;
+    background: url(refresh.png);
+}
+
+.exform_wrapper<?=$themecurent?>.finmsg {
+    width: 400px;
+    min-height: 50px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -60px 0 0 -200px;
+}
+
+.exform_wrapper<?=$themecurent?>.finmsg p {
+    text-align: center;
+}
+
+.exf_captcha {
+    display: none;
+}
+
+.exform_wrapper<?=$themecurent?> .close_btn {
+    width: 35px!important;
+    height: 35px;
+    position: absolute;
+    top: -17px;
+    right: -17px;
+    background: url('../../../imgs/close-form.png') no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.exform_wrapper<?=$themecurent?> .mf_submit .send_btn:hover {opacity: 0.7;}
+
+.close_btn:focus {
+    outline: none;
+}
+
+.lab {
+    font-size: 13px;
+}
+
+.exform_wrapper<?=$themecurent?> input.name[name="user_name"] {
+    display: none;
+}
+
+.poz_rel {
+    position: relative;
+}
+
+label.confirm {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: center;
+}
+
+.confirm_user_agreements {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    outline: 0!important;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    bottom: -3px;
+    display: none;
+}
+
+<?=$themecurent?> .block_confirm {
+    padding-right: 0px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.block_confirm {
+    position: relative;
+    line-height: 0.9;
+}
+
+label.confirm a {
+    text-decoration: underline;
+}
+
+@media (max-width: 380px) {
+    .exform_wrapper<?=$themecurent?> {
+        max-width: 320px;
+        padding: 15px 15px;
+    }
+
+    .exform_wrapper<?=$themecurent?> .close_btn {
+        top: 11px;
+        right: -4px;
+    }
+}
+.exform_wrapper<?=$themecurent?> input[type="text"]:focus, .exform_wrapper<?=$themecurent?> textarea:focus {
+    border: 1px solid #ea1d23;
+}
